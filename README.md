@@ -1,34 +1,37 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse Project** repository! 🚀  
+This project demonstrates a comprehensive solution for designing and implementing a modern **data warehouse**. It focuses on building scalable architectures, optimizing data storage, and delivering business-ready insights.
 
 ---
+
 ## 🏗️ Data Architecture
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+The data architecture for this project adheres to the **Medallion Architecture** with three distinct layers:
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+1. **Bronze Layer**:  
+   Stores raw data from source systems without modifications, ensuring traceability and accuracy. Data is ingested into a SQL Server database.
+
+2. **Silver Layer**:  
+   This layer involves cleaning, standardizing, and transforming data to create a structured format suitable for analysis.
+
+3. **Gold Layer**:  
+   Contains highly organized business-ready data modeled into a **star schema**, tailored for analytics and reporting purposes.
 
 ---
+
 ## 📖 Project Overview
 
-This project involves:
+This project focuses on:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+1. **Data Architecture Design**: Implementing **Bronze**, **Silver**, and **Gold** layers to create a modern data warehouse.
+2. **ETL Processes**: Designing Extract, Transform, and Load (ETL) pipelines to move data seamlessly between layers.
+3. **Data Modeling**: Creating optimized fact and dimension tables based on industry best practices to enable fast analytical queries.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+🎯 This repository is a perfect showcase for anyone looking to demonstrate expertise in:
+- **Data Warehousing**
+- **ETL Development**
+- **Data Architecture**
 
 ---
 
@@ -45,16 +48,3 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
----
-
-### BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
-
